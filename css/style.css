@@ -1723,4 +1723,23 @@ h1, h2, h3, h4, h5, h6, figure {
   border-bottom-left-radius: 0px !important;
 }
 
+.responsive-map {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  border: 5px solid #3498db; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.responsive-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 /*# sourceMappingURL=style.css.map */
